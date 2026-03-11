@@ -1,0 +1,1 @@
+ALTER TABLE `orders` ADD `status` enum('待开始','进行中','待审核','已完成','待结算','已结算') DEFAULT '待开始' NOT NULL;
